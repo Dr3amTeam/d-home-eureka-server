@@ -1,0 +1,8 @@
+services:
+  dreamteam:
+    image: eureka-service
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8761:8761
